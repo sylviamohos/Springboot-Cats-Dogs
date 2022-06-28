@@ -1,5 +1,7 @@
 package com.bloomtech.catsanddogs.models;
 
+// This POJO will be used to send data back and forth to the server
+
 public class Dog
 {
     private final long id;
