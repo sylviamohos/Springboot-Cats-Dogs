@@ -21,5 +21,6 @@ public class CatController
         // adding the sout to see what is happening:
         System.out.println("GET with the path /cats was received.");
         return new ResponseEntity<>(catRepo.getCats(), HttpStatus.OK);
+
     }
 }
