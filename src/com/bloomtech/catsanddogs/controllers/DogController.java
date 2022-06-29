@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 // When a server receives an HTTP request, it includes a URL that tells the server what you want to do.
 
-
-
-
 @RestController // Tell the server there are controllers in this file to handle URLs - you can have as many as you want.
 public class DogController
 {
